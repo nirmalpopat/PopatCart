@@ -1,12 +1,20 @@
-#code
-n = int(input())
+'''def fun(a, b):
+    return (a + b)
+    
+ans = fun(10, 5)
+print(fun(10, 5))
 
-for i in range(n):
-    inp = list(input().split())
-    for i in range(len(inp)):
-        inp[i] = int(inp[i])
-    val = list(input().split())
-    for i in range(len(val)):
-        val[i] = int(val[i])
-    op = val[inp[1]:] + val[:inp[1]]
-    print(op)
+#syntax
+#function create
+#def function_name(arg1, arg2, ... , argn):
+    #body
+#function call
+#function_name()'''
+
+def add(a, b):
+     return (a + b)
+ 
+def sub(a, b):
+     return (a - b)
+ 
+print(add(10, 5) + sub(5, 3))
